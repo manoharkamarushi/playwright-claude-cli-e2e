@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "ignoreDeprecations": "6.0",
+    "baseUrl": ".",
+    "paths": {
+      "@config/*": ["config/*"],
+      "@data/*": ["tests/data/*"],
+      "@api/*": ["tests/api/*"],
+      "@fixtures/*": ["tests/fixtures/*"],
+      "@base/*": ["tests/base/*"],
+      "@pages/*": ["tests/pages/*"],
+      "@components/*": ["tests/components/*"]
+    }
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules"]
+}
